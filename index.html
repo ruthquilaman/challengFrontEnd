@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Artículos Wikipedia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img src="img/wikipedia_logo_icon_168863.png" alt="wikipediaicon">
+    <h1>wikipedia api</h1>
+    <div>
+      <input type="text" id="searchInput" class="search-input" placeholder="api">
+      <button type="button" id="searchButton">
+        <img src="img/search.svg" alt="search">
+      </button>
+    </div>
+    <div class="articles-list" id="articlesList"></div>
+  </div>
+
+  <!-- Importar Axios desde el CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

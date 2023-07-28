@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .search-input {
+    width: 200px;
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #searchButton {
+    height: 40px;
+    font-size: 16px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  
+  h1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    margin: 0;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+  .card a {
+    display: block;
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
